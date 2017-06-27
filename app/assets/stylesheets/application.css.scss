@@ -17,10 +17,12 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
  
+// Typography
  h1, h2, h3 {
      font-family:'Open Sans', sans-serif;
  }
  
+// Home page gradient import
  .navbar, .home-callout{
     //Gradient provided by @_ighosh at uigradients.com
     background: #000428;  /* fallback for old browsers */
@@ -28,9 +30,11 @@
     background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
 
+// Removing tiny strip between navbar and home page
 .navbar {
   border: none;
 }
+
 
 .home-callout {
   color: 	white;
@@ -39,20 +43,12 @@
   padding-bottom: 100px;
 }
 
-.navbar-default .navbar-brand {
-  color: white;
-}
-
+// White and opaque links
+.navbar-default .navbar-brand, 
 .navbar-default .navbar-nav li a {
   color: white;
-}
-
-.navbar-default .navbar-nav li a:hover {
-  color:white;
-  opacity: 0.75;
-}
-
-.navbar-default .navbar-brand:hover {
-  color:white;
-  opacity:0.75;
+  &:hover {
+    color:white;
+    opacity: 0.75;
+  }
 }

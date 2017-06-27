@@ -21,7 +21,7 @@
      font-family:'Open Sans', sans-serif;
  }
  
- body, .navbar{
+ .navbar, .home-callout{
     //Gradient provided by @_ighosh at uigradients.com
     background: #000428;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
@@ -30,4 +30,11 @@
 
 .navbar {
   border: none;
+}
+
+.home-callout {
+  color: 	white;
+  margin-top:-20px;
+  padding-top:50px;
+  padding-bottom: 100px;
 }

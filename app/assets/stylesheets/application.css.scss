@@ -50,8 +50,11 @@
   padding-bottom: 100px;
 }
 
-.alert-notice {
-  display: none;
+.alert-notice, .alert-alert {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  margin-top: -14px;
 }
 
 // White and opaque links
@@ -66,6 +69,11 @@
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
+}
+
+.flash-container {
+  position:absolute;
+  width:100%;
 }
 
 .navbar-default .navbar-toggle {
